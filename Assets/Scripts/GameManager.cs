@@ -16,7 +16,8 @@ public class GameManager : MonoBehaviour
 	public void playAgain()
 	{
 		SceneManager.LoadScene("GameScene");
-	}
+        ScoreSystem.ScoreCount = 0;
+    }
 
 	// start playing
 	public void startPlay()

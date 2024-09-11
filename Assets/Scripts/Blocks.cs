@@ -317,12 +317,14 @@ public class Blocks : MonoBehaviour
                 {
                     Destroy(fillGrid[x,y,z].gameObject);               
                     fillGrid[x,y,z] = null;
+                   
                 }
                 //Debug.Log("x:");
                 //Debug.Log(x);
                 //Debug.Log("y:");
                 //Debug.Log(y);
-    
+                ScoreSystem.ScoreCount += 5;
+
                 lineDownX(x,y);
             }
         }
@@ -340,6 +342,7 @@ public class Blocks : MonoBehaviour
                 //Debug.Log(z);
                 //Debug.Log("y:");
                 //Debug.Log(y);
+                ScoreSystem.ScoreCount += 5;
                 lineDownZ(z,y);
             }
         }
