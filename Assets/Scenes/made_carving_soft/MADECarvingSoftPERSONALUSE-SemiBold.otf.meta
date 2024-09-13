@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 6757793b553491042a0d1541fc7b6d53
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - MADE Carving Soft PERSONAL USE
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c39b2ef7b9c5ccc4993cca3ce3dbc0d2, type: 3}
+  - {fileID: 12800000, guid: 122c86f4552cd7440a8a278402bbaa92, type: 3}
+  - {fileID: 12800000, guid: c01d449a8161e9a4abce3bc64e2a8c67, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

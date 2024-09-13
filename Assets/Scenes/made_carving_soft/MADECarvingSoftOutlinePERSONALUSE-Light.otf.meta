@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: cfdd43c32f970c84eac3aa8b4cfd8254
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - MADE Carving Soft Outline PERSONAL USE
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 909263b70bd9a3849923b1b920972a77, type: 3}
+  - {fileID: 12800000, guid: 99c57d212e0963b42b9a5651317341fe, type: 3}
+  - {fileID: 12800000, guid: 1b68cf87022be0240ab1f049dc959964, type: 3}
+  - {fileID: 12800000, guid: 579709caa1ff3604dbf8c1bb73f563c2, type: 3}
+  - {fileID: 12800000, guid: 87b78817c8c4dba4aaa31cbcac61ba01, type: 3}
+  - {fileID: 12800000, guid: 7df1d078dcf6aa7468a8e132edd3d3ba, type: 3}
+  - {fileID: 12800000, guid: 2a73771d82ce2214690e20a794b96779, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

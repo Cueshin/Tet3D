@@ -35,16 +35,16 @@ public class Blocks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    	// check movement of shadow
-    	if(validMoveShadow())
-    	{	
-    		GameObject.FindWithTag("shadow").transform.position -= new Vector3(0,1,0);
+        // check movement of shadow
+        if (validMoveShadow())
+        {
+            GameObject.FindWithTag("shadow").transform.position -= new Vector3(0, 1, 0);
 
-    		if(!validMoveShadow())
-	    	{
-	    		GameObject.FindWithTag("shadow").transform.position += new Vector3(0,1,0);
-	    	}
-    	}
+            if (!validMoveShadow())
+            {
+                GameObject.FindWithTag("shadow").transform.position += new Vector3(0, 1, 0);
+            }
+        }
 
         // move the block down
         //    	
@@ -69,6 +69,7 @@ public class Blocks : MonoBehaviour
             }
             prevTime = Time.time;
         }
+        
 
     	//// move
      	// quick down movement
